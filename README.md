@@ -8,7 +8,7 @@
 
 #### Este Projeto consiste em construir o front End de um e-commerce chamado Electrum para a prática e aprendizado do Framework SASS
 
-##### Este projeto será desenvolvido usando as boas práticas e os patterns usados no dia-a-d-a, simulando um projeto front end real, adicionarei mais novidades conforme o projeto for avançando.
+##### Este projeto será desenvolvido usando as boas práticas e os patterns usados no dia-a-dia, simulando um projeto front end real, adicionarei mais novidades conforme o projeto for avançando.
 
 #
   <div align="center">
