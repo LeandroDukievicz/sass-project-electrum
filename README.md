@@ -4,7 +4,7 @@
 
 #
 
-# Repositório de Projeto E-Commerce - Electrum 
+# Projeto E-Commerce - Electrum 
 
 #### Este Projeto consiste em construir o front End de um e-commerce chamado Electrum para a prática e aprendizado do Framework SASS
 
