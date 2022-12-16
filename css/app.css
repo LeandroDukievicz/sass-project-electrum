@@ -3,10 +3,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
 }
 
 h1 {
-  color: #2d10b0;
+  color: #a3b010;
+}
+
+i {
+  color: #00f2ff;
 }
 
 /*# sourceMappingURL=app.css.map */
