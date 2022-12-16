@@ -4,14 +4,26 @@
   box-sizing: border-box;
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
+  color: #e7e5e5;
+}
+
+body {
+  background-color: #1f1f1f;
 }
 
 h1 {
-  color: #a3b010;
+  color: #2d10b0;
 }
 
 i {
   color: #00f2ff;
+}
+
+.btn {
+  color: #f9f9f9;
+  background-color: #0f6eae;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
 }
 
 /*# sourceMappingURL=app.css.map */
