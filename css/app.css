@@ -31,19 +31,23 @@ html {
   font-size: 1rem;
 }
 
+body {
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+}
+
 strong {
-  color: orange;
+  color: red;
   font-size: 2rem;
   padding: 5px;
-  border-bottom: 2px solid orange;
-  border-top: 2px solid orange;
+  border-bottom: 2px solid red;
+  border-top: 2px solid red;
 }
 
 .header {
   background-color: #15161d;
 }
 .header-top {
-  background-color: #1e1f29;
+  background-color: #000000;
   color: #fff;
 }
 .header-top-container {
@@ -185,7 +189,7 @@ strong {
   background-position-x: 95%;
   background-position-y: 2.5rem;
   brackground-size: 25%;
-  background-color: #e4e7ed;
+  background-color: #e7e7e7;
   height: 500px;
   padding: 2rem;
 }
@@ -227,6 +231,50 @@ strong {
 .deal-container-content-subtitle {
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  border-top: 2px solid #e7e7e7;
+}
+.newsletter-container h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+.newsletter-container h2 span {
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: rgba(0, 238, 255, 0.6784313725);
+}
+.newsletter-container form {
+  display: flex;
+  margin-bottom: 3rem;
+}
+.newsletter-container form input[type=email] {
+  border: 2px solid rgba(0, 238, 255, 0.6784313725);
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding-left: 25px;
+}
+.newsletter-container .social-media i {
+  padding: 12px;
+  margin: 5px;
+  border: 1px inset #fff;
+  cursor: pointer;
+  color: #333;
+  transition: 0.5s;
+}
+.newsletter-container .social-media i:hover {
+  color: rgba(0, 238, 255, 0.6784313725);
+  background-color: #333;
+  border: 3px outset rgba(0, 238, 255, 0.6784313725);
 }
 
 .btn {
