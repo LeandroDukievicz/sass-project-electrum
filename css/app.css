@@ -31,6 +31,14 @@ html {
   font-size: 1rem;
 }
 
+strong {
+  color: orange;
+  font-size: 2rem;
+  padding: 5px;
+  border-bottom: 2px solid orange;
+  border-top: 2px solid orange;
+}
+
 .header {
   background-color: #15161d;
 }
@@ -171,6 +179,56 @@ html {
   padding: 2rem 0;
 }
 
+.deal-container {
+  background-image: url("../../img/fone.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 2.5rem;
+  brackground-size: 25%;
+  background-color: #e4e7ed;
+  height: 500px;
+  padding: 2rem;
+}
+.deal-container-content {
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.deal-container-content-timer {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.deal-container-content .deal-container-timer {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 238, 255, 0.6784313725);
+  color: #fff;
+  margin: 0 1rem;
+}
+.deal-container-content .deal-container-timer-time {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.deal-container-content-title, .deal-container-content-subtitle {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.deal-container-content-subtitle {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
 .btn {
   padding: 8px 15px;
   height: 40px;
@@ -266,8 +324,8 @@ html {
 }
 .products-grid-card .label {
   text-transform: uppercase;
-  border: 1px #cd0000;
-  color: #cd0000;
+  border: 1px orange;
+  color: orange;
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -279,6 +337,23 @@ html {
 }
 .products-grid-card img {
   width: 100%;
+}
+.products-grid-card .category, .products-grid-card .product-name, .products-grid-card .product-price, .products-grid-card .rating-box, .products-grid-card .btn {
+  margin-bottom: 1rem;
+}
+.products-grid-card .category {
+  margin-top: 1rem;
+  text-transform: uppercase;
+  color: #b9babc;
+}
+.products-grid-card .product-name {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.products-grid-card .product-price {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=app.css.map */
