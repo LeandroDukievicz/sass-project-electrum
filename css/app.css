@@ -3,27 +3,32 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
-  text-decoration: none;
-  color: #e7e5e5;
-}
-
-body {
-  background-color: #1f1f1f;
-}
-
-h1 {
-  color: #2d10b0;
+  font-size: 1rem;
 }
 
 i {
-  color: #00f2ff;
+  color: #D10024;
 }
 
-.btn {
-  color: #f9f9f9;
-  background-color: #0f6eae;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+a {
+  text-decoration: none;
+  transition: 0.8s;
+}
+a:hover {
+  color: #D10024;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=app.css.map */
