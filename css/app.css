@@ -7,7 +7,7 @@
 }
 
 i {
-  color: #D10024;
+  color: rgba(0, 255, 247, 0.6784313725);
 }
 
 a {
@@ -15,7 +15,7 @@ a {
   transition: 0.8s;
 }
 a:hover {
-  color: #D10024;
+  color: rgba(0, 255, 247, 0.6784313725);
 }
 
 input {
@@ -55,7 +55,7 @@ html {
   color: #fff;
 }
 .header-top-container a:hover {
-  color: #D10024;
+  color: rgba(0, 255, 247, 0.6784313725);
 }
 
 .main-header-container {
@@ -73,7 +73,7 @@ html {
   font-size: 3rem;
 }
 .main-header-container #brand i {
-  color: #D10024;
+  color: rgba(0, 255, 247, 0.6784313725);
   font-size: 3rem;
 }
 .main-header #search-form {
@@ -107,7 +107,7 @@ html {
   position: absolute;
   top: -10px;
   right: 2px;
-  background-color: #D10024;
+  background-color: rgba(0, 255, 247, 0.6784313725);
   height: 18px;
   width: 18px;
   border-radius: 50%;
@@ -119,7 +119,7 @@ html {
   margin-bottom: 0.2rem;
 }
 .main-header .header-actions-menu .wishlist-container a:hover, .main-header .header-actions-menu .header-cart-container a:hover {
-  color: #D10024;
+  color: rgba(0, 255, 247, 0.6784313725);
 }
 
 .btn {
@@ -129,15 +129,15 @@ html {
   border-radius: 20px;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #D10024;
+  background-color: rgba(0, 255, 247, 0.6784313725);
   cursor: pointer;
   border-color: transparent;
 }
 .btn:hover {
   transition: 1s;
   background-color: transparent;
-  border-color: #D10024;
-  color: #D10024;
+  border-color: rgba(0, 255, 247, 0.6784313725);
+  color: #0a48ad;
 }
 .btn-half {
   border-top-left-radius: 0;
